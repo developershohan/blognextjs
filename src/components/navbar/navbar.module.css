@@ -2,13 +2,21 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+}
+
+.social{
+    display: flex;
     flex: 1;
 }
 .logo{
+    display: flex;
+    justify-content: center;
+
     flex: 1;
 }
 .links{
     display: flex;
     flex: 1;
-
+gap: 20px;
 }
