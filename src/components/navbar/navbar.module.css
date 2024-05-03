@@ -1,57 +1,56 @@
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.social{
-    display: flex;
-    flex: 1;
+.social {
+  display: flex;
+  flex: 1;
 }
-.logo{
-    display: flex;
-    justify-content: center;
+.logo {
+  display: flex;
+  justify-content: center;
 
-    flex: 1;
+  flex: 1;
 }
-.links{
-    display: flex;
-    flex: 1;
-gap: 20px;
+.links {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 20px;
 }
 /* responsive breakpoints*/
 @media screen and (max-width: 1540px) {
 }
 @media screen and (max-width: 1280px) {
-    .logo{
-        font-size: 22px;
-    }
-    .links{
-        font-size: 18px;
-        gap: 15px;
-    }
+  .logo {
+    font-size: 22px;
+  }
+  .links {
+    font-size: 18px;
+    gap: 15px;
+  }
 }
 @media screen and (max-width: 1024px) {
-    .social{
-        display: none;
-    }
-    .logo{
-        text-align: left;
-    }
+  .social {
+    display: none;
+  }
+  .logo {
+    text-align: left;
+  }
 }
 @media screen and (max-width: 768px) {
-    .logo{
-        font-size: 14px;
-        justify-content: start;
-    }
-
+  .logo {
+    font-size: 14px;
+    justify-content: start;
+  }
 }
 @media screen and (max-width: 640px) {
-    .link{
-        display: none;
-    }
-    .links{
-        justify-content: end;
-    }
+  .link {
+    display: none;
+  }
+  .links {
+    justify-content: end;
+  }
 }
