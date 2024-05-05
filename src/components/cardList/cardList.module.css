@@ -1,0 +1,14 @@
+.container{
+    flex: 5;
+    
+}
+.title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

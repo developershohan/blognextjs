@@ -1,8 +1,8 @@
-import style from'./Menu.module.css'
+import styles from'./Menu.module.css'
 
 const Menu = () => {
   return (
-    <div className={style.title}>Menu</div>
+    <div className={styles.container}>Menu</div>
   )
 }
 
