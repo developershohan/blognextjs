@@ -1,13 +1,20 @@
 import Link from "next/link";
 import styles from "./categoryList.module.css";
 import Image from "next/image";
+import CategoryCard from "../categoryCard/categoryCard";
 
 const CategoryList = () => {
   return (
     <div className={styles.container}>
       <div className={styles.title}> Post Categories </div>
       <div className={styles.categories}>
-        <Link
+        <CategoryCard title="coding" imageUrl="coding.png" />
+        <CategoryCard title="food" imageUrl="food.png" />
+        <CategoryCard title="style" imageUrl="style.png" />
+        <CategoryCard title="travel" imageUrl="travel.png" />
+        <CategoryCard title="fashion" imageUrl="fashion.png" />
+        <CategoryCard title="culture" imageUrl="culture.png" />
+        {/* <Link
           href="/blog?cat=style"
           className={`${styles.category} ${styles.style}`}>
           <Image
@@ -78,7 +85,7 @@ const CategoryList = () => {
             className={styles.image}
           />
           fashion
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

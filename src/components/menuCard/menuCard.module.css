@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  gap: 10px;
+}
+.imageContainer {
+  position: relative;
+  height: 32px;
+  width: 32px;
+  object-fit: contain;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.category {
+  background: crimson;
+  width: max-content;
+  padding: 6px 12px;
+  color: var(--bg);
+  border-radius: 50px;
+  font-size: 12px;
+}
+.title {
+  font-size: 14px;
+  font-weight: 500;
+}
+.details {
+  font-size: 14px;
+}
