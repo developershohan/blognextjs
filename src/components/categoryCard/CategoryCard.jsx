@@ -31,13 +31,13 @@ const CategoryCard = ({ title, imageUrl }) => {
       <Link
         href={`/blog?cat=${title}`}
         className={getCategoryClassName(title)}>
-        <Image
+{      imageUrl && ( <Image
           src={`/${imageUrl}`}
           alt=""
           width={32}
           height={32}
           className={styles.image}
-        />
+        /> )}
         {title}
       </Link>
     </div>

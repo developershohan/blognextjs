@@ -13,15 +13,16 @@ const Navbar = () => {
         <Image src={"/youtube.png"} alt="youtube" width={24} height={24} />
       </div>
       <div className={styles.logo}>
-        <h1>Virus's Blog</h1>
+        <Link href="/"><h1>Virus's Blog</h1></Link>
+        
       </div>
       <div className={styles.links}>
         <ThemeToggle />
         <Link href="/" className={styles.link}>
-          HomePage
+          Home
         </Link>
-        <Link href="/" className={styles.link}>
-          Content
+        <Link href="/blog" className={styles.link}>
+          Blog
         </Link>
         <Link href="/" className={styles.link}>
           About

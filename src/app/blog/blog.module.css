@@ -1,0 +1,12 @@
+.titleContainer{
+    background: crimson;
+    display: flex;justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 50px 0;
+    color: #fff;
+}
+.blog_area{
+    display: flex;
+    gap: 50px;
+}

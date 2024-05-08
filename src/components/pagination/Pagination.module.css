@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+margin-top: 50px;
+}
+.btn{
+    background: crimson;
+    padding: 10px 20px;
+    color: var(--bg);font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+}

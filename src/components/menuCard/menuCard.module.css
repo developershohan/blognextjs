@@ -17,7 +17,7 @@
   background: crimson;
   width: max-content;
   padding: 6px 12px;
-  color: var(--bg);
+  color: #fff;
   border-radius: 50px;
   font-size: 12px;
 }

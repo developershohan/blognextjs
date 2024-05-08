@@ -1,0 +1,46 @@
+
+.container{
+    margin: 50px 0;
+}
+
+.headerWrapper{
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    
+}
+.titleWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+.title{
+    font-size: 50px;
+}
+.post_img_wrapper{
+    width: 50%;
+    position: relative;
+    height: 300px;
+}
+.post_img_wrapper img{
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+.author_info{
+display: flex;
+gap: 20px;
+align-items: center;
+}
+
+.author_img_wrapper{
+    width: 40px;
+    position: relative;
+    height: 40px;
+}
+.author_img_wrapper img{
+    border-radius: 50%;
+    object-fit: cover;
+}
